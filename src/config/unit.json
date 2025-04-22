@@ -1,0 +1,370 @@
+[
+  {
+    "id": "1",
+    "title": "Common",
+    "description": "Applicable to all",
+    "code": "000",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "2",
+    "title": "Ester Production Area",
+    "description": "General Unit",
+    "code": "100",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "3",
+    "title": "Ester Production Area",
+    "description": "T-101, T-102 Towers",
+    "code": "001",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "4",
+    "title": "Ester Production Area",
+    "description": "Methyl Acetate",
+    "code": "002",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "5",
+    "title": "Ester Production Area",
+    "description": "Ethyl Acetate",
+    "code": "003",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "6",
+    "title": "Ester Production Area",
+    "description": "R-4 Ester Production",
+    "code": "004",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "7",
+    "title": "Ester Production Area",
+    "description": "R-5 Ester Production",
+    "code": "005",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "8",
+    "title": "Ester Production Area",
+    "description": "Gas Condensate Distillation",
+    "code": "006",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "9",
+    "title": "Ester Production Area",
+    "description": "Gas Condensate Distillation",
+    "code": "007",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "10",
+    "title": "Ester Production Area",
+    "description": "R-800",
+    "code": "008",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "11",
+    "title": "Ester Production Area",
+    "description": "R-9 Ester Production",
+    "code": "009",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "12",
+    "title": "Ester Production Area",
+    "description": "Tankage Area",
+    "code": "010",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "13",
+    "title": "Ester Production Area",
+    "description": "Utility",
+    "code": "011",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "14",
+    "title": "Ester Production Area",
+    "description": "Firefighting Unit",
+    "code": "012",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "15",
+    "title": "Ester Production Area",
+    "description": "VRU",
+    "code": "013",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "16",
+    "title": "Ester Production Area",
+    "description": "Tankage, Loading & Unloading Unit",
+    "code": "120",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "17",
+    "title": "Ester Production Area",
+    "description": "Di-Acetate Production Unit",
+    "code": "121",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "18",
+    "title": "Ester Production Area",
+    "description": "Methyl Acetate Production Unit",
+    "code": "122",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "19",
+    "title": "Ester Production Area",
+    "description": "Ethyl Acetate Production Unit",
+    "code": "123",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "20",
+    "title": "Ester Production Area",
+    "description": "Interconnecting Unit",
+    "code": "128",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "21",
+    "title": "Ester Production Area",
+    "description": "Utility Unit - Air, Water, Elec, Steam",
+    "code": "129",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "22",
+    "title": "Ester Production Area",
+    "description": "Industrial Building",
+    "code": "151",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "23",
+    "title": "Ester Production Area",
+    "description": "Non-Industrial Building",
+    "code": "152",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "24",
+    "title": "Refining Expansion Area",
+    "description": "General Unit",
+    "code": "200",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "25",
+    "title": "Refining Expansion Area",
+    "description": "Tankage, Loading & Unloading Unit",
+    "code": "230",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "26",
+    "title": "Refining Expansion Area",
+    "description": "Condensate/Crude Distillation Unit",
+    "code": "201",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "27",
+    "title": "Refining Expansion Area",
+    "description": "Naphtha Hydrotreating Unit",
+    "code": "202",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "28",
+    "title": "Refining Expansion Area",
+    "description": "Isomerization Unit",
+    "code": "203",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "29",
+    "title": "Refining Expansion Area",
+    "description": "Octanizer Unit",
+    "code": "204",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "30",
+    "title": "Refining Expansion Area",
+    "description": "Continuous Catalyst Regeneration Unit",
+    "code": "205",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "31",
+    "title": "Refining Expansion Area",
+    "description": "Hydrogen Production Unit",
+    "code": "206",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "32",
+    "title": "Refining Expansion Area",
+    "description": "Interconnecting Unit",
+    "code": "245",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "33",
+    "title": "Refining Expansion Area",
+    "description": "Air Separation & Nitrogen Unit",
+    "code": "211",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "34",
+    "title": "Refining Expansion Area",
+    "description": "Water System Unit",
+    "code": "212",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "35",
+    "title": "Refining Expansion Area",
+    "description": "Fuel Gas Unit",
+    "code": "213",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "36",
+    "title": "Refining Expansion Area",
+    "description": "Steam Production Unit",
+    "code": "214",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "37",
+    "title": "Refining Expansion Area",
+    "description": "Incinerator Unit",
+    "code": "215",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "38",
+    "title": "Refining Expansion Area",
+    "description": "Waste Water Treatment Unit",
+    "code": "216",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "39",
+    "title": "Refining Expansion Area",
+    "description": "Power Generation Unit",
+    "code": "217",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "40",
+    "title": "Refining Expansion Area",
+    "description": "Cooling Water System Unit",
+    "code": "218",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "41",
+    "title": "Refining Expansion Area",
+    "description": "Firewater System Unit",
+    "code": "219",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "42",
+    "title": "Refining Expansion Area",
+    "description": "Main Substation Building",
+    "code": "251",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "43",
+    "title": "Refining Expansion Area",
+    "description": "2nd Substation Building",
+    "code": "252",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "44",
+    "title": "Mahiqoud Free Zone",
+    "description": "Mahiqoud GSO Storage Unit",
+    "code": "301",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "45",
+    "title": "Mahiqoud Free Zone",
+    "description": "Mahiqoud GSL Storage Unit",
+    "code": "302",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "46",
+    "title": "Salafchegan Industrial Zone",
+    "description": "Sulfuric Acid Production Unit",
+    "code": "351",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  }
+]

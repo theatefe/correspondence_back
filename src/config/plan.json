@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "adminId": "1",
+    "title": " پلن اولیه ",
+    "description": " پلن اولیه ",
+    "price": 16000,
+    "planType": 1,
+    "loadCount": 10,
+    "dayCount": 30,
+    "ladderCount": 10,
+    "pinCount": 1,
+    "status": true,
+    "editable": true,
+    "createdAt": "2023-01-05 12:00:00",
+    "updatedAt": "2023-01-05 12:00:00"
+  }
+]

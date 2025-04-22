@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "correspondence_api",
+    "password": "",
+    "database": "correspondence_api_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "correspondence_api",
+    "password": "correspondence_api",
+    "database": "correspondence_api_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "correspondence_api",
+    "password": "",
+    "database": "correspondence_api_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

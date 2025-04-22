@@ -1,0 +1,149 @@
+[
+  {
+    "id": "1",
+    "code":"AR",
+    "title": "Architectural",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "2",
+    "code":"CV",
+    "title": "Civil",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "3",
+    "code":"DC",
+    "title": "Document Control",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "4",
+    "code":"EL",
+    "title": "Electrical",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "5",
+    "code":"HV",
+    "title": "HVAC",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "6",
+    "code":"IN",
+    "title": "Instrument & Control",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "7",
+    "code":"IT",
+    "title": "Information Technology",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "8",
+    "code":"MA",
+    "title": "Machinery",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "9",
+    "code":"ME",
+    "title": "Mechanical",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "10",
+    "code":"PC",
+    "title": "Planning & Project Control",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "11",
+    "code":"PI",
+    "title": "Piping & Layout",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "12",
+    "code":"PM",
+    "title": "Project Management",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "13",
+    "code":"PP",
+    "title": "Procurement",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "14",
+    "code":"PR",
+    "title": "Process",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "15",
+    "code":"QM",
+    "title": "Quality Management",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "16",
+    "code":"SA",
+    "title": "Safety / HSE",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "17",
+    "code":"ST",
+    "title": "Steel Structure",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "18",
+    "code":"TD",
+    "title": "Technology Development",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "19",
+    "code":"TI",
+    "title": "Technical Inspection",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "20",
+    "code":"TL",
+    "title": "Telecommunication",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "21",
+    "code":"HE",
+    "title": "Head",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  }
+]

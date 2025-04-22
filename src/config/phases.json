@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "code":"CD",
+    "title": "Conceptual Design",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "2",
+    "code":"BD",
+    "title": "Basic Design",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "3",
+    "code":"ED",
+    "title": "Engineering Detail",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "4",
+    "code":"PP",
+    "title": "Procurement",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "5",
+    "code":"CN",
+    "title": "Construction",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  },
+  {
+    "id": "6",
+    "code":"CO",
+    "title": "Commissioning",
+    "createdAt": "2019-01-22 06:01:18",
+    "updatedAt": "2022-01-22 03:01:48"
+  }
+]
