@@ -1,6 +1,5 @@
 import smsRequest = require('request');
 import CryptoJS from 'crypto-js';
-import firebaseAdmin from '../../config/firebase';
 export class Tools {
   convertToSlug(Text) {
     return Text.toLowerCase()
@@ -156,21 +155,6 @@ export class Tools {
   encryptString(str, secretKey) {
     return str;
     return CryptoJS.AES.encrypt(str, secretKey).toString();
-  }
-  async sendNotification(firebaseToken, title, body, link = null) {
-    try {
-      const message = {
-        notification: {
-          title: title,
-          body: body,
-        },
-        token: firebaseToken,
-      };
-      return await firebaseAdmin.messaging().send(message);
-    } catch (error) {
-      console.log(error);
-      return error.request;
-    }
   }
   toRad(Value) {
     return (Value * Math.PI) / 180;

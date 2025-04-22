@@ -11,7 +11,7 @@ import {
 } from '../../../DTO/letter.dto';
 import {
   letterTrackingObjDto,
-  LetterTrackingDto
+  LetterTrackingDto,
 } from '../../../Dto/letterTracking.dto';
 // DATA ACCESS
 import { LetterDataAcceess } from '../../../dataAccess/letter.dataAccess';
