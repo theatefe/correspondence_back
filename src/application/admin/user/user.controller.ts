@@ -36,7 +36,7 @@ export class UserController {
   @ApiOperation({ summary: 'users create' })
   @ApiOkResponse({
     description: 'status',
-    type: Boolean,
+    type: UserDto,
   })
   @ApiHeader({
     name: 'jtoken',
@@ -53,9 +53,8 @@ export class UserController {
     @Res() res: Response,
   ) {
     try {
-      await this.userService.create(createUserDto);
-      res.json(true);
-      return true;
+      const user = await this.userService.create(createUserDto);
+      res.json(user);
     } catch (err) {
       throw err;
     }
@@ -117,9 +116,7 @@ export class UserController {
   })
   @HttpCode(HttpStatus.OK)
   @Put('')
-  async updateUserInfo(
-    @Body() updateUserDto: UpdateUserDto,
-  ): Promise<Boolean> {
+  async updateUserInfo(@Body() updateUserDto: UpdateUserDto): Promise<Boolean> {
     const user = await this.userService.updateUserInfo(updateUserDto);
     return user;
   }

@@ -7,29 +7,13 @@ export class UsersDataAcceess {
     respectfulTitle: string,
     name: string,
     lastName: string,
-    fatherName: string,
-    nationalCode: string,
-    dateOfBirth: Date,
-    email: string,
     mobile: string,
-    gender: number,
-    education: string,
-    address: string,
-    maritalStatus: number,
   ) {
     const user = await Models.User.create({
       respectfulTitle,
       name,
       lastName,
-      fatherName,
-      nationalCode,
-      dateOfBirth,
-      email,
       mobile,
-      gender,
-      education,
-      address,
-      maritalStatus,
     });
     return user;
   }
@@ -88,18 +72,14 @@ export class UsersDataAcceess {
     respectfulTitle,
     name,
     lastName,
-    email,
     mobile,
-    gender,
   ) {
     const user = await Models.User.update(
       {
         respectfulTitle,
         name,
         lastName,
-        email,
         mobile,
-        gender,
       },
       {
         where: {

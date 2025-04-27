@@ -21,79 +21,28 @@ export class UserService {
     private readonly mediaDataAcceess: MediaDataAcceess,
   ) {}
   // create user   ******************************************************
-  async create(createUserDto: CreateUserDto): Promise<boolean> {
-    const {
-      respectfulTitle,
-      name,
-      lastName,
-      fatherName,
-      nationalCode,
-      dateOfBirth,
-      email,
-      mobile,
-      gender,
-      education,
-      address,
-      maritalStatus,
-    } = createUserDto;
+  async create(createUserDto: CreateUserDto): Promise<UserDto> {
+    const { respectfulTitle, name, lastName, mobile } = createUserDto;
     try {
-      // validate duplicated mobile
-      // if (mobile) {
-      //   const mobileCheck = await this.usersDataAcceess.findByMobile(mobile);
-      //   if (mobileCheck) {
-      //     throw new HttpException(
-      //       {
-      //         status: HttpStatus.NOT_FOUND,
-      //         error: 'MOBILE_IS_DUPLICATE',
-      //       },
-      //       HttpStatus.NOT_FOUND,
-      //     );
-      //   }
-      // }
-      // validate duplicated email
-      if (email) {
-        const emailCheck = await this.usersDataAcceess.findByEmail(email);
-        if (emailCheck) {
-          throw new HttpException(
-            {
-              status: HttpStatus.NOT_FOUND,
-              error: 'EMAIL_IS_DUPLICATE',
-            },
-            HttpStatus.NOT_FOUND,
-          );
-        }
-      }
-      // validate gender men women and no selected
-      if (gender || gender === 0) {
-        const checkGender = Object.keys(genderEnum).some(
-          (key) => genderEnum[key].code === gender,
+      // check duplicate mobile
+      const existMobile = await this.usersDataAcceess.findByMobile(mobile);
+      if (existMobile) {
+        throw new HttpException(
+          {
+            status: HttpStatus.NOT_ACCEPTABLE,
+            error: 'شماره موبایل تکراری است',
+          },
+          HttpStatus.NOT_ACCEPTABLE,
         );
-        if (!checkGender) {
-          throw new HttpException(
-            {
-              status: HttpStatus.NOT_FOUND,
-              error: 'GENDER_NOT_FOUND',
-            },
-            HttpStatus.NOT_FOUND,
-          );
-        }
       }
       // create user
-      await this.usersDataAcceess.adminCreateUser(
+      const user = await this.usersDataAcceess.adminCreateUser(
         respectfulTitle,
         name,
         lastName,
-        fatherName,
-        nationalCode,
-        dateOfBirth,
-        email,
         mobile,
-        gender,
-        education,
-        address,
-        maritalStatus,
       );
-      return true;
+      return userObj(user, null);
     } catch (err) {
       throw err;
     }
@@ -125,8 +74,7 @@ export class UserService {
   }
   // update user ******************************************************
   async updateUserInfo(updateUserDto: UpdateUserDto): Promise<boolean> {
-    const { id, respectfulTitle, name, lastName, email, mobile, gender } =
-      updateUserDto;
+    const { id, respectfulTitle, name, lastName, mobile } = updateUserDto;
     // get user by id
     const user = await this.usersDataAcceess.findById(id);
     if (!user) {
@@ -138,28 +86,12 @@ export class UserService {
         HttpStatus.NOT_FOUND,
       );
     }
-    if (gender || gender === 0) {
-      const checkGender = Object.keys(genderEnum).some(
-        (key) => genderEnum[key].code === gender,
-      );
-      if (!checkGender) {
-        throw new HttpException(
-          {
-            status: HttpStatus.NOT_FOUND,
-            error: 'GENDER_NOT_FOUND',
-          },
-          HttpStatus.NOT_FOUND,
-        );
-      }
-    }
     await this.usersDataAcceess.adminUpdateUser(
       id,
       respectfulTitle,
       name,
       lastName,
-      email,
       mobile,
-      gender,
     );
     return true;
   }

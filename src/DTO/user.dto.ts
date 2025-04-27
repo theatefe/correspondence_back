@@ -82,33 +82,7 @@ export class CreateUserDto {
   lastName: string;
 
   @ApiProperty({ type: String })
-  fatherName: string;
-
-  @ApiProperty({ type: String })
-  nationalCode: string;
-
-  @ApiProperty({ type: DATE })
-  dateOfBirth: Date;
-
-  @ApiProperty({ type: String })
-  email: string;
-
-  @ApiProperty({ type: String })
   mobile: string;
-
-  @ApiProperty({ type: String })
-  education: string;
-
-  @ApiProperty({ type: String })
-  address: string;
-
-  @IsOptional()
-  @ApiProperty({ type: Number, required: false })
-  gender: number;
-
-  @IsOptional()
-  @ApiProperty({ type: Number, required: false })
-  maritalStatus: number;
 }
 
 export class UpdateUserDto {
@@ -127,14 +101,7 @@ export class UpdateUserDto {
   lastName: string;
 
   @ApiProperty({ type: String })
-  email: string;
-
-  @ApiProperty({ type: String })
   mobile: string;
-
-  @IsOptional()
-  @ApiProperty({ type: Number, required: false })
-  gender: number;
 }
 
 export class DeleteUserDto {
